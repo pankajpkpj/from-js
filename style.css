@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    border: blue;
+    border: 1px;
+    padding: 50px;
+
+}
+
+#headh1 {
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+    width: 70%;
+
+
+}
+
+
+
+.main-container {
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid blue;
+    /* border: 1px solid black; */
+
+}
+
+.tutor_Hedding {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.form-input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    text-align: right;
+    align-items: center;
+}
+
+.form-input-group-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+label {
+    margin-right: 2rem;
+}
+
+input,
+select,
+textarea,
+option {
+    border: 2px solid blue;
+}
+
+div {
+    padding: 10px 0;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+.headInfo{
+    background-color: rgba(0, 0, 0, 0.117);
+    padding-left: 1rem;
+}
